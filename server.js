@@ -34,4 +34,4 @@ app.post('/subscribe', async (req, res) => {
   return res.json({ success: true, msg: 'Captcha passed' });
 });
 
-app.listen(3000, () => console.log('Server started on port 3000'));
+app.listen(3000, () => console.log('Server started on port https://recaptcha-node2.onrender.com'));
